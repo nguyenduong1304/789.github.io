@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-top{
+    display: block;
+    background-color: #221333;
+}
+.header-top button{
+    margin-top: 15px;
+    background: rgb(95,89,185);
+background: linear-gradient(90deg, rgba(95,89,185,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
+    font-weight: 500;
+    margin-left: 20px;
+    width: 150px !important;
+    border-radius: 50px !important;
+}
+.header-top button a{
+  text-decoration: none;
+  color: #fff;
+}
+#menu
+{
+ width: 100%;
+ border: 1px solid #B3B0B7;
+ background-color: #B3B0B7;
+ font-family: Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+#menu ul
+{
+  margin-top:  15px;
+}
+#menu ul li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 50px;
+}
+
+#menu ul li a:link 
+{
+   color: rgb(47, 68, 185);
+   font-size: 15px;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+              
+#menu ul li a:visited
+{
+    color: rgb(47, 68, 185);
+    font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+#menu ul li a:hover
+{
+    color: #020202;
+    font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+.footer{
+    background-color: #221333;
+    display: block;
+}
+.logo-bot {
+    margin-top: 10px;
+}
+.logo-bot img{
+    width: 70%;
+    
+}
+.nha-cai p{
+    text-transform: uppercase;
+    color: rgb(228, 142, 13);
+}
+.doitac p{
+    text-transform: uppercase;
+    color: rgb(228, 142, 13);
+    font-weight: bold;
+    text-align: center;
+}
+.copy {
+    margin-top: 25px;
+    margin-bottom: 105px;
+}
+.copy p{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}   
+.thanhtoan{
+    margin-top: 10px;
+}  
+.thanhtoan p{
+    text-transform: uppercase;
+    color: rgb(228, 142, 13);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}  
+.thanhtoan img{
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+}     
